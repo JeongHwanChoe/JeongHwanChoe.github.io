@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cursor Inspired Design System</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="top-nav">
+      <div class="container nav-inner">
+        <a href="#" class="wordmark">Cursor</a>
+        <nav class="menu">
+          <a href="#features">Features</a>
+          <a href="#timeline">Timeline</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#footer">Contact</a>
+        </nav>
+        <div class="nav-actions">
+          <a href="#" class="button-secondary">Sign In</a>
+          <a href="#" class="button-primary">Download</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero-band">
+        <div class="container hero-inner">
+          <p class="eyebrow">AI-FIRST CODE EDITOR</p>
+          <h1>Build with editorial calm, ship with AI speed.</h1>
+          <p class="hero-copy">
+            Warm cream canvas, near-black ink, and one decisive orange CTA. This
+            page implements your DESIGN.md tokens for a GitHub Pages landing.
+          </p>
+          <div class="hero-actions">
+            <a href="#" class="button-download">Download for macOS</a>
+            <a href="#features" class="button-tertiary-text">Explore features</a>
+          </div>
+
+          <article class="ide-mockup-card">
+            <div class="mockup-toolbar">workspace/main.ts</div>
+            <div class="mockup-grid">
+              <aside class="ide-pane sidebar">
+                <p>src/</p>
+                <p>components/</p>
+                <p>lib/</p>
+                <p class="muted">README.md</p>
+              </aside>
+              <section class="ide-pane editor">
+                <pre><code>function deploy() {
+  const mode = "cursor";
+  return `Shipping with ${mode}`;
+}</code></pre>
+              </section>
+              <aside class="ide-pane chat">
+                <p class="chat-title">Agent Timeline</p>
+                <div class="timeline-row">
+                  <span class="pill thinking">THINKING</span>
+                  <span class="pill grep">GREPPING</span>
+                  <span class="pill read">READING</span>
+                  <span class="pill edit">EDITING</span>
+                  <span class="pill done">DONE</span>
+                </div>
+              </aside>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="features" class="section">
+        <div class="container">
+          <h2>Core Components</h2>
+          <div class="feature-grid">
+            <article class="feature-card">
+              <h3>Hairline Depth</h3>
+              <p>
+                No shadows. Cards float by white-on-cream contrast and 1px
+                borders only.
+              </p>
+            </article>
+            <article class="feature-card">
+              <h3>Editorial Type</h3>
+              <p>
+                Display tone uses 400-weight typography with gentle negative
+                tracking.
+              </p>
+            </article>
+            <article class="feature-card">
+              <h3>Code Surfaces</h3>
+              <p>
+                JetBrains Mono is applied to panes, snippets, and timeline-like
+                product zones.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="timeline" class="section section-soft">
+        <div class="container">
+          <h2>AI Timeline Signature</h2>
+          <div class="comparison-card">
+            <p>
+              Timeline palette is scoped to in-product status only and should not
+              replace semantic action colors.
+            </p>
+            <div class="timeline-row large">
+              <span class="pill thinking">THINKING</span>
+              <span class="pill grep">GREPPING</span>
+              <span class="pill read">READING</span>
+              <span class="pill edit">EDITING</span>
+              <span class="pill done">DONE</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="pricing" class="section">
+        <div class="container pricing-wrap">
+          <article class="pricing-tier-card">
+            <span class="badge-pill">Starter</span>
+            <h3>Free</h3>
+            <p>Core editing and lightweight AI support.</p>
+          </article>
+          <article class="pricing-tier-featured">
+            <span class="badge-pill featured">Pro</span>
+            <h3>$20 / month</h3>
+            <p>Full agent workflows with faster context handling.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="cta-band">
+        <div class="container cta-inner">
+          <h2>Try Cursor now</h2>
+          <a href="#" class="button-primary">Get Started</a>
+        </div>
+      </section>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="container footer-grid">
+        <p>Built from DESIGN.md tokens for GitHub Pages.</p>
+        <a href="#">Docs</a>
+        <a href="#">Blog</a>
+        <a href="#">Forum</a>
+        <a href="#">Careers</a>
+      </div>
+    </footer>
+  </body>
+</html>
